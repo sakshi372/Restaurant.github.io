@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(196, 147, 147);  */
+    font-family: "Red Rose", cursive;
+}
+
+ body{
+    background-image: url(photo.jpg);
+    background-size: cover;
+ }
+
+ul{
+   display: flex;
+   align-items: center;
+   margin-left: 2%;
+   list-style: none;
+   gap: 5%;
+   color: rgb(187, 131, 28);
+}
+ul button{
+    margin-left: 400%;
+    padding-left: 45%;
+    padding-right: 45%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-size: 15px;
+    color: white;
+    background-color: brown;
+}
+ul button:hover{
+    color:brown;
+    background-color:rgb(221, 220, 220);
+    border-radius: 10%;
+}
+.one{   
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgb(141, 86, 42);
+    padding-left: 75px;
+}
+.one:hover{
+   text-decoration: underline;
+    color: rgb(224, 96, 49);
+}
+.logo{
+    padding-top: 10px;
+} 
+main{
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+main p{
+    font-size: 350%;
+    font-weight: 900;
+    color: rgb(255, 255, 0);
+   
+}
+.mainbutton{
+    font-size: 15px;
+    color: white;
+    background-color: brown;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}  
+.mainbutton:hover{
+    background-color: whitesmoke;
+    color: brown;
+}
+footer div{
+    padding-right: 25px;
+    float: right;
+    padding-top: 4%;
+}
